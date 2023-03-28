@@ -5,7 +5,7 @@
 /* style portfolio */
 
 
-/* global styles */
+/*---------- global styles ----------*/
 * { 
   margin: 0;
   padding: 0;
@@ -45,7 +45,7 @@ footer {
 }
 
 
-/* index.html styles */
+/*---------- index.html styles ----------*/
   .mainIndex {
   display: flex;
   flex-direction:column;
@@ -72,13 +72,13 @@ footer {
   height: 12rem;
 }
 
-/* about.html styles */
+/*---------- about.html styles ----------*/
 .mainAbout {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 55rem;
+  height: 50rem;
   
 }
 
@@ -111,7 +111,7 @@ h5 {
 }
 
 .mainAbout section p {
-  margin: 1rem;
+  margin: .5rem;
 }
 
 
