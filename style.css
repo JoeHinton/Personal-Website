@@ -25,10 +25,30 @@ body {
 
  nav {
   display: flex;
+  flex-wrap: wrap;
   height: 100%;
   justify-content: space-around;
   align-items: center;
-  font-size: 5em;
+  font-size: 4rem;
+  
+ }
+
+ .mainIndex {
+  height: 20rem;
+  border: blue solid 3px;
+  justify-content: space-around;
+  
+ }
+
+ .mainIndex ul {
+  display: flex;
+  flex-direction: row;
+  height: 20rem;
+  border: red 3px solid;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  
  }
 
 
