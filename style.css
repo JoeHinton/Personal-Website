@@ -1,0 +1,69 @@
+/* set height and width of page(s) */
+/* create a persistent header and use globally */
+/* style index */
+/* style about */
+/* style portfolio */
+
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body { 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: purple solid 5px;
+ }
+
+ header {
+  display: inline-block;
+  height: 10em;
+  width: 100%;
+  background-color: rgb(231, 239, 169);
+ }
+
+ nav {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 4rem;
+  
+ }
+
+ .mainIndex {
+  display: flex;
+  flex-direction:column;
+  height: 55rem;
+  width: 100%;
+  border: blue solid 3px;
+  justify-content: space-around;
+
+  
+ }
+
+ .mainIndex ul {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  border: red 3px solid;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  
+ }
+
+ footer {
+  width: 100%;
+  background-color: aqua;
+  text-align: center;
+  border: rgb(88, 146, 1) 3px solid;
+ }
+
+
+
+
