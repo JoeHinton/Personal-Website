@@ -43,6 +43,9 @@ footer {
   background-color: aqua;
   text-align: center;
   border: rgb(88, 146, 1) 3px solid;
+
+  position: relative;
+  bottom: 0;
 }
 
 
@@ -79,7 +82,7 @@ footer {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 50rem;
+  height: 55rem;
   
 }
 
@@ -92,6 +95,7 @@ footer {
   border: rgb(0, 255, 162) solid 3px;
 }
 
+  /* positions Short Bio h5 to top of the parent box */
 #about-section1 {
   justify-content:flex-start;
 }
@@ -117,6 +121,9 @@ footer {
 .mainAbout section p {
   margin: .5rem;
 }
+
+/*---------- portfolio.html styles ----------*/
+
 
 
 
