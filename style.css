@@ -49,12 +49,17 @@ body {
  .mainIndex ul {
   display: flex;
   flex-direction: row;
-  height: 50%;
+  flex-wrap: wrap;
+  height: 70%;
   border: red 3px solid;
   justify-content: space-around;
   align-items: center;
   list-style-type: none;
   
+ }
+
+ .indexImage {
+  height: 12rem;
  }
 
  footer {
