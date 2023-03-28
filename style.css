@@ -1,0 +1,36 @@
+/* set height and width of page(s) */
+/* create a persistent header and use globally */
+/* style index */
+/* style about */
+/* style portfolio */
+
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body { 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+ }
+
+ header {
+  display: inline-block;
+  height: 10em;
+  width: 100%;
+  background-color: rgb(231, 239, 169);
+ }
+
+ nav {
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 5em;
+ }
+
+
+
+
