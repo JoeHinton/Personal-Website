@@ -4,6 +4,8 @@
 /* style about */
 /* style portfolio */
 
+
+/* global styles */
 * { 
   margin: 0;
   padding: 0;
@@ -33,9 +35,18 @@ body {
   align-items: center;
   font-size: 4rem;
   
- }
+}
 
- .mainIndex {
+footer {
+  width: 100%;
+  background-color: aqua;
+  text-align: center;
+  border: rgb(88, 146, 1) 3px solid;
+}
+
+
+/* index.html styles */
+  .mainIndex {
   display: flex;
   flex-direction:column;
   height: 55rem;
@@ -43,10 +54,9 @@ body {
   border: blue solid 3px;
   justify-content: space-around;
 
-  
- }
+}
 
- .mainIndex ul {
+  .mainIndex ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -55,19 +65,54 @@ body {
   justify-content: space-around;
   align-items: center;
   list-style-type: none;
-  
- }
 
- .indexImage {
+  }
+
+  .indexImage {
   height: 12rem;
- }
+}
 
- footer {
-  width: 100%;
-  background-color: aqua;
+/* about.html styles */
+.mainAbout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 55rem;
+  
+}
+
+.mainAbout section {
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-evenly;
+  height: 100%;
+  min-width: 100%;
+  
+
+  border: rgb(0, 255, 162) solid 3px;
+}
+
+h5 {
+  font-size: 2em;
   text-align: center;
-  border: rgb(88, 146, 1) 3px solid;
- }
+}
+
+.mainAbout section ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 16rem;
+  border: red 2px solid;
+}
+
+.mainAbout section li {
+  margin-left: 25px;
+}
+
+.mainAbout section p {
+  margin: 1rem;
+}
 
 
 
