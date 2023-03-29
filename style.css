@@ -34,7 +34,7 @@ body {
   height: 100%;
   justify-content: space-around;
   align-items: center;
-  font-size: 4rem;
+  font-size: 4em;
   
 }
 
@@ -42,6 +42,7 @@ footer {
   width: 100%;
   background-color: aqua;
   text-align: center;
+  font-size: 3em;
   border: rgb(88, 146, 1) 3px solid;
 
   position: relative;
@@ -123,6 +124,37 @@ footer {
 }
 
 /*---------- portfolio.html styles ----------*/
+
+.mainPort {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 55rem;
+  width: 100%;
+  border: red solid 3px;
+}
+
+.mainPort section  {
+  align-items: center;
+  width: 33%;
+
+  border: green solid 3px;
+}
+
+.mainPort section ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  list-style-type: none;
+  font-size: 1.5em;
+  border: lawngreen solid 3px;
+}
+
+.imgPort {
+  width: 90%;
+}
 
 
 
